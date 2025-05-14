@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("teste");
+            var curso = new Course();
+            curso.Title = "Curso de C#";    
+
+            Console.WriteLine(curso.Title);
         }
     }
 }
