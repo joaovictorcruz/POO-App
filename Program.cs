@@ -8,6 +8,10 @@
             curso.Title = "Curso de C#";    
 
             Console.WriteLine(curso.Title);
+
+            var career = new Career();
+            career.Items.Add(new CareerItem());
+            Console.WriteLine(career.TotalCourses);
         }
     }
 }
