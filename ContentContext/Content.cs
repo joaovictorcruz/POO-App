@@ -2,7 +2,7 @@ namespace POO.ContentContext
 {
     public abstract class Content //classes abstradas nao podem ser instanciadas.
     {
-        public Content()
+        public Content(string title, string url)
         {
             Id = Guid.NewGuid();
         }

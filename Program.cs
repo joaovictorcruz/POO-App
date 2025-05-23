@@ -4,14 +4,17 @@
     {
         static void Main(string[] args)
         {
-            var curso = new Course();
-            curso.Title = "Curso de C#";    
+            var articles = new List<Article>();
+            articles.Add(new Article("Artigo sobre OOP", "orienteção-objetos"));
+            articles.Add(new Article("Artigo sobre C#", "csharp"));
+            articles.Add(new Article("Artigo sobre .NET", "dotnet"));
 
-            Console.WriteLine(curso.Title);
-
-            var career = new Career();
-            career.Items.Add(new CareerItem());
-            Console.WriteLine(career.TotalCourses);
+            foreach (var article in articles)
+            {
+                Console.WriteLine("Id", article.Id);
+                Console.WriteLine("Titulo:", article.Title);
+                Console.WriteLine("Artigos:", article.Url);
+            }
         }
     }
 }

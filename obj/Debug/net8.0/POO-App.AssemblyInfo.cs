@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("POO-App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e298ddec9c43f5083ee0b4c09058ce7582500aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d0935361ab02101d64f8c36312df887962acac7")]
 [assembly: System.Reflection.AssemblyProductAttribute("POO-App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("POO-App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
